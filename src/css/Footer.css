@@ -1,0 +1,24 @@
+.footer {
+	width: 80%;
+	height: 150px;
+	margin-left: 10%;
+	background-color: rgb(35, 85, 68);
+	clear: both;
+}
+
+/* mediaQuery */
+/* 0 ~ 1440px */
+/* @media (max-width: 1440px) {
+	.footer {
+		width: 80%;
+		margin-left: 10%;
+	}
+} */
+
+/* 0 ~ 960px */
+@media (max-width: 960px) {
+	.footer {
+		width: 100%;
+		margin-left: 0;
+	}
+}

@@ -1,0 +1,22 @@
+.section {
+	width: 50%;
+	height: 400px;
+	background-color: rgb(8, 161, 110);
+	display: grid;
+	float: left;
+}
+
+/* mediaQuery */
+/* 0 ~ 1440px */
+/* @media (max-width: 1440px) {
+	.section {
+		width: 50%;
+	}
+} */
+
+/* 0 ~ 960px */
+@media (max-width: 960px) {
+	.section {
+		width: 60%;
+	}
+}

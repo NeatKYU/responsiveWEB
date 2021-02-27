@@ -1,0 +1,24 @@
+.aside {
+	width: 30%;
+	height: 400px;
+	margin-left: 10%;
+	background-color: rgb(43, 214, 157);
+	float: left;
+}
+
+/* mediaQuery */
+/* 0 ~ 1440px */
+/* @media (max-width: 1440px) {
+	.aside {
+		width: 30%;
+		margin-left: 10%;
+	}
+} */
+
+/* 0 ~ 960px */
+@media (max-width: 960px) {
+	.aside {
+		width: 40%;
+		margin-left: 0;
+	}
+}

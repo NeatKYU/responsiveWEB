@@ -1,0 +1,13 @@
+.App {
+	margin-top: 0;
+	margin-left: 0;
+	padding: 0;
+}
+.App::after{
+	content:""; clear:both; display: block;
+}
+
+body {
+	margin: 0;
+	padding: 0;
+}
