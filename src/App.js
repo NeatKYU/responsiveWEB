@@ -12,7 +12,7 @@ import "./css/Section.css";
 import './css/Header.css';
 import "./css/Footer.css";
 import "./css/Aside.css";
-import "./css/Article.css";
+import "./css/Article.scss";
 
 function App() {
 	return (

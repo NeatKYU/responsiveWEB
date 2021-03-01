@@ -1,7 +1,7 @@
 import React from 'react';
 
-function Article() {
-	return <div className="article"></div>
+function Article({scrollX}) {
+	return <div className={`article ${scrollX ? 'scrollX' : ""}`}></div>
 }
 
 export default Article;
