@@ -1,0 +1,63 @@
+@import "./mixin";
+
+.article {
+  width: 500px;
+  height: 100px;
+  background-color: rgb(64, 102, 89);
+  margin: 0 auto;
+  margin-top: 10px;
+  border-radius: 10px;
+}
+@include notebook {
+  .article {
+    width: 800px;
+  }
+  .element {
+    width: 800px;
+  }
+}
+@include tablet {
+  .article {
+    width: 500px;
+  }
+  .element {
+    width: 500px;
+  }
+}
+@include mobile {
+  .article {
+    width: 300px;
+  }
+  .element {
+    width: 300px;
+  }
+}
+
+.element {
+  height: 200px;
+  background-color: rgb(91, 178, 255);
+  border-radius: 10px;
+  margin: 0 auto;
+}
+
+.scrollX {
+  overflow-x: scroll;
+}
+
+.basic-scroll {
+  &::-webkit-scrollbar {
+    height: 10px;
+    background: #ffffff;
+  }
+  &::-webkit-scrollbar-thumb {
+    border-radius: 3.5px;
+    background-color: #5d42f6;
+
+    &:hover {
+      background-color: #f04d63;
+    }
+  }
+  &::-webkit-scrollbar-track {
+    background: #ffffff;
+  }
+}

@@ -1,9 +1,9 @@
 .aside {
-	width: 30%;
-	height: 700px;
-	margin-left: 10%;
-	background-color: rgb(43, 214, 157);
-	float: left;
+  width: 30%;
+  height: 700px;
+  margin-left: 10%;
+  background-color: rgb(43, 214, 157);
+  float: left;
 }
 
 /* mediaQuery */
@@ -17,8 +17,8 @@
 
 /* 0 ~ 960px */
 @media (max-width: 960px) {
-	.aside {
-		width: 40%;
-		margin-left: 0;
-	}
+  .aside {
+    width: 40%;
+    margin-left: 0;
+  }
 }

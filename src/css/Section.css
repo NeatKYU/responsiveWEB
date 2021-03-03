@@ -1,9 +1,9 @@
 .section {
-	width: 50%;
-	height: 700px;
-	background-color: rgb(8, 161, 110);
-	display: grid;
-	float: left;
+  width: 80%;
+  height: "auto";
+  background-color: rgb(8, 161, 110);
+  display: grid;
+  margin: 0 auto;
 }
 
 /* mediaQuery */
@@ -16,7 +16,7 @@
 
 /* 0 ~ 960px */
 @media (max-width: 960px) {
-	.section {
-		width: 60%;
-	}
+  .section {
+    width: 100%;
+  }
 }

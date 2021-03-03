@@ -1,0 +1,46 @@
+.header {
+  width: 80%;
+  height: 100px;
+  background-color: aquamarine;
+  margin: 0 auto;
+}
+
+.header_container {
+  display: inline-block;
+  width: 80%;
+  margin-left: 10%;
+}
+
+.total_money_show {
+  font-size: 20px;
+  font-weight: bold;
+  marin-left: 10%;
+}
+
+.today_money_show {
+  color: #3000fd;
+  marin-left: 10%;
+}
+
+.f_left {
+  float: left;
+}
+.f_right{
+  float: right;
+}
+
+
+/* mediaQuery */
+/* 0 ~ 1440px */
+/* @media (max-width: 1440px) {
+	.header {
+		width: 80%;
+	}
+} */
+
+/* 0 ~ 960px */
+@media (max-width: 960px) {
+  .header {
+    width: 100%;
+  }
+}

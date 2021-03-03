@@ -5,8 +5,9 @@ import ChartView from './ChartView';
 function Section() {
 	return (
 		<div className="section">
-			<Article />
-			<Article />
+			<Article select="내 가게"/>
+			<Article select="상권"/>
+			<Article select="업종"/>
 			<ChartView/>
 		</div>
 	);
